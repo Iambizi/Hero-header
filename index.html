@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Hero Header: Level Up your CSS Animation</title>
+    <!-- The default layout, resets and and text styling -->
+    <link href="stylesheets/main.css" rel="stylesheet">
+    <!-- Custom styling for the header -->
+    <link href="stylesheets/header.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="container">
+        <nav class="menu">
+          <a href="#">Catalog</a>
+          <a href="#">Inspiration</a>
+          <a href="#">About us</a>
+        </nav>
+      <section class="header-content">
+        <!-- <img src="images/rocky-dashed.svg" class="rocky-dashed  animate-pop-in"> -->
+        <h1 class="header-title animate-pop-in">GREAT DESIGN <br /> AFFORDABLE PRICES</h1>
+        <h4 class="header-subtitle animate-pop-in">PRODUCTS DIRECT FROM THE MAKERS</h4>
+        <p class="header-button animate-pop-in"><a href="#calls-to-action" class="button">Shop Now </a></p>
+      </section>
+    </header>
+    <section class="header-down-arrow">
+      <!-- <img src="images/downarrow.png" width="50"> -->
+      	<section class="body-content">
+          <br />
+          <div class="body-menu">
+            <nav>
+              <a href="#">New</a>
+              <a>Chairs</a>
+              <a>Tables</a>
+              <a>Lighting</a>
+              <a>Beds</a>
+              <a>Accesories</a>
+              <a>Garden</a>
+              <a>Sale</a>
+            </nav>
+          </div>
+          <!-- <div class="container">
+            <img src="" alt="image1">
+            <img src="" alt="image2">
+            <img src="" alt="image3">
+            <img src="" alt="image4">
+          </div> -->
+      	</section>
+    </section>
+    <script>
+      document.body.className += "js-loading";
+
+      window.addEventListener("load", showPage, false);
+
+      function showPage() {
+        document.body.className = document.body.className.replace("js-loading","");
+      }
+    </script>
+  </body>
+</html>
