@@ -114,6 +114,9 @@ header:after {
 .header-button{
   animation-delay: 1.1s;
 }
+.body-menu{
+  animation-delay: 1.3s;
+}
 /*Header menu*/
 .menu {
   text-align: right;
